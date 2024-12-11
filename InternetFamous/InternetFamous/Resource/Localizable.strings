@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  InternetFamous
+
+  Created by 北川 on 2024/12/11.
+  
+*/
+
+loginWithApple = "Sign in with Apple";
+loginWithemail = "Sign in with Email";
+loginWithVisitor = "Sign in as visitor ";
+loginLinkText = "By continuingyou agree to our terms of use and privacy policy.";
