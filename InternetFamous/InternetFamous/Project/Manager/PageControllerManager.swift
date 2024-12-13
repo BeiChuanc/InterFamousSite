@@ -10,7 +10,7 @@ import UIKit
 
 class PageControllerManager: NSObject {
     
-    // 登录首页
+    // Welcome
     class func welcome(_ window: UIWindow) {
         var viewC = UIViewController.currentViewController() as? WelcomeController
         viewC = WelcomeController()

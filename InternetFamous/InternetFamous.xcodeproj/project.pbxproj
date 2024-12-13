@@ -23,6 +23,10 @@
 		90AF72EC2CE9E2E0007599C4 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AF72EB2CE9E2E0007599C4 /* WelcomeController.swift */; };
 		90AF72EE2CE9E30F007599C4 /* ParentControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AF72ED2CE9E30F007599C4 /* ParentControllerManager.swift */; };
 		90AF72F02CE9E3A2007599C4 /* PageControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AF72EF2CE9E3A2007599C4 /* PageControllerManager.swift */; };
+		90FBBC692D0C25F600A56D81 /* PodfileDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FBBC682D0C25F600A56D81 /* PodfileDescription.swift */; };
+		90FBBC6B2D0C26D200A56D81 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FBBC6A2D0C26D200A56D81 /* LoginModel.swift */; };
+		90FBBC6D2D0C319C00A56D81 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FBBC6C2D0C319C00A56D81 /* LoginViewModel.swift */; };
+		90FBBC6F2D0C31B900A56D81 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FBBC6E2D0C31B900A56D81 /* BaseViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		90AF72EB2CE9E2E0007599C4 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		90AF72ED2CE9E30F007599C4 /* ParentControllerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentControllerManager.swift; sourceTree = "<group>"; };
 		90AF72EF2CE9E3A2007599C4 /* PageControllerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControllerManager.swift; sourceTree = "<group>"; };
+		90FBBC682D0C25F600A56D81 /* PodfileDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodfileDescription.swift; sourceTree = "<group>"; };
+		90FBBC6A2D0C26D200A56D81 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		90FBBC6C2D0C319C00A56D81 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		90FBBC6E2D0C31B900A56D81 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +164,7 @@
 				90AF72D82CE9E1D5007599C4 /* Utils */,
 				90AF72D92CE9E1E2007599C4 /* Extension */,
 				90AF72DA2CE9E1F8007599C4 /* Manager */,
+				90FBBC672D0C25BE00A56D81 /* Dependencies */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -185,6 +194,7 @@
 				90AF72DC2CE9E22F007599C4 /* CacheManager.swift */,
 				90AF72ED2CE9E30F007599C4 /* ParentControllerManager.swift */,
 				90AF72EF2CE9E3A2007599C4 /* PageControllerManager.swift */,
+				90FBBC6E2D0C31B900A56D81 /* BaseViewModel.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -218,6 +228,7 @@
 		90AF72E82CE9E2A8007599C4 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				90FBBC6C2D0C319C00A56D81 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -225,6 +236,7 @@
 		90AF72E92CE9E2B2007599C4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				90FBBC6A2D0C26D200A56D81 /* LoginModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -234,6 +246,14 @@
 			children = (
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		90FBBC672D0C25BE00A56D81 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				90FBBC682D0C25F600A56D81 /* PodfileDescription.swift */,
+			);
+			path = Dependencies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,11 +388,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				90AF72F02CE9E3A2007599C4 /* PageControllerManager.swift in Sources */,
+				90FBBC6B2D0C26D200A56D81 /* LoginModel.swift in Sources */,
 				90AF72DD2CE9E22F007599C4 /* AudioRecorderManager.swift in Sources */,
+				90FBBC6F2D0C31B900A56D81 /* BaseViewModel.swift in Sources */,
 				90AF72EE2CE9E30F007599C4 /* ParentControllerManager.swift in Sources */,
 				90AF72EC2CE9E2E0007599C4 /* WelcomeController.swift in Sources */,
 				90AF72DE2CE9E22F007599C4 /* CacheManager.swift in Sources */,
+				90FBBC692D0C25F600A56D81 /* PodfileDescription.swift in Sources */,
 				90AF72E42CE9E271007599C4 /* UIViewController.swift in Sources */,
+				90FBBC6D2D0C319C00A56D81 /* LoginViewModel.swift in Sources */,
 				90AF72A82CE9E13E007599C4 /* AppDelegate.swift in Sources */,
 				90AF72E02CE9E254007599C4 /* PessionUtil.swift in Sources */,
 				902ECC1C2D08402F0024720A /* UIFont.swift in Sources */,

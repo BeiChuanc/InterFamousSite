@@ -19,17 +19,20 @@ class ParentControllerManager: UIViewController {
     var linkTextView = UITextView.init()
     
     // Login App: handle the token data to login.
-    func login() {
+    func loginWithApp(type: LoginType) {
         
     }
     
     @objc func loginHandle(_ sender: UIButton) {
         switch sender.tag {
         case 0:
+            loginWithApp(type: .APPLE)
             break
         case 1:
+            loginWithApp(type: .EMAIL)
             break
         case 2:
+            loginWithApp(type: .GUEST)
             break
         default:
             break

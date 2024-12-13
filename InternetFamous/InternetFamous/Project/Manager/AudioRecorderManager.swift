@@ -9,7 +9,7 @@ protocol AudioRecordDelegate: AnyObject {
     
 }
 
-// 音频管理
+// Audio Manager
 class AudioRecorderManager: NSObject {
     
     var audioRecorder: AVAudioRecorder?
@@ -25,7 +25,7 @@ class AudioRecorderManager: NSObject {
         setAudioSession()
     }
     
-    // 会话
+    // Session
     private func setAudioSession() {
         PessionUtil.openRecordServiceWithBlock(true) { [self] isOpen in
             if isOpen {
@@ -44,16 +44,16 @@ class AudioRecorderManager: NSObject {
         }
     }
     
-    // 开始录音
+    // Start Record
     func startRecording() {
         guard let audioFileURL = self.audioFileURL else { return }
         
-        // 配置
+        // Config
         let settings: [String: Any] = [
-            AVFormatIDKey: Int(kAudioFormatMPEG4AAC), // m4a格式 指定
+            AVFormatIDKey: Int(kAudioFormatMPEG4AAC), // m4a
             AVSampleRateKey: 44100,
             AVNumberOfChannelsKey: 1,
-            AVEncoderAudioQualityKey: AVAudioQuality.high.rawValue // 高音质
+            AVEncoderAudioQualityKey: AVAudioQuality.high.rawValue // high quality
         ]
         
         do {
@@ -65,13 +65,13 @@ class AudioRecorderManager: NSObject {
         }
     }
     
-    // 停止录音
+    // Stop Record
     func stopRecord() {
         audioRecorder?.stop()
         audioRecorder = nil
     }
     
-    // 播放音频
+    // Play Audio
     func playAudio() {
         guard let audioFileURL = self.audioFileURL else { return }
         
@@ -88,7 +88,7 @@ class AudioRecorderManager: NSObject {
         }
     }
     
-    // 移除录音文件
+    // Remove Record File
     func removeFile() {
         guard let audioFileURL = self.audioFileURL else { return }
         
@@ -99,19 +99,19 @@ class AudioRecorderManager: NSObject {
         }
     }
 
-    // 获取音频时长
+    // Avalible Audio Duration
     func getAudioDuration(url: URL) async -> Double? {
         let asset = AVAsset(url: url)
         
         do {
-            // 使用 load(.duration) 异步加载时长
+            // Use load(.duration) Asyn
             let duration: CMTime = try await asset.load(.duration)
             
-            // 获取时长并返回
+            // Return Duration
             let seconds = CMTimeGetSeconds(duration)
             return seconds.isFinite ? seconds : nil
         } catch {
-            // 出现异常时返回 nil
+            // Return nil when error
             return nil
         }
     }
