@@ -1,0 +1,60 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'InternetFamous' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'ProgressHUD'
+  pod 'SnapKit'
+  pod 'AgoraRtcEngine_iOS', '~> 3.7.1'
+  pod 'Alamofire', '~> 4.9.1'
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'IQKeyboardManagerSwift'
+  pod 'KTVHTTPCache', '~> 3.0.0'
+  pod 'NVActivityIndicatorView'
+  pod 'Kingfisher', '7.6.2'
+  pod 'Starscream', '4.0.4'
+  pod 'DropDown'
+  pod 'Moya', '~> 13.0.1'
+  pod 'HandyJSON'
+  pod 'CollectionViewPagingLayout'
+  pod 'lottie-ios', '~> 3.4.3'
+  pod "GSMessages"
+  pod 'AppsFlyerFramework'
+  pod 'KeychainAccess'
+  pod "SwiftMessages"
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      if 'Starscream' == target.name
+        puts target
+        target.build_configurations.each do |config|
+          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = "12.0"
+        end
+      end
+    end
+  end
+
+  def remove_swiftui
+    system("rm -rf ./Pods/CollectionViewPagingLayout/Lib/SwiftUI")
+    system("rm -rf ./Pods/Kingfisher/Sources/SwiftUI")
+    code_file = "./Pods/Kingfisher/Sources/General/KFOptionsSetter.swift"
+    code_text = File.read(code_file)
+    code_text.gsub!(/#if canImport\(SwiftUI\) \&\& canImport\(Combine\)(.|\n)+#endif/,'')
+    system("rm -rf " + code_file)
+    aFile = File.new(code_file, 'w+')
+    aFile.syswrite(code_text)
+    aFile.close()
+  end
+
+  target 'InternetFamousTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'InternetFamousUITests' do
+    # Pods for testing
+  end
+
+end
