@@ -11,8 +11,8 @@ import UIKit
 extension UIFont {
     
     // Custom Define Font
-    func setFont(fontName: String, sizeFont: CGFloat) -> UIFont {
-        return UIFont(name: fontName, size: CGFloat(sizeFont))!
+    func with(fontName: String, sizeFont: CGFloat) -> UIFont {
+        return UIFont(name: fontName, size: sizeFont)!
     }
     
 }

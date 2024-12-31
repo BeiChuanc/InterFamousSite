@@ -9,4 +9,7 @@
 loginWithApple = "Sign in with Apple";
 loginWithemail = "Sign in with Email";
 loginWithVisitor = "Sign in as visitor ";
-loginLinkText = "By continuingyou agree to our terms of use and privacy policy.";
+loginLinkText = "By continuing you agree to our %@ and %@.";
+link1 = "terms of use";
+link2 = "privacy policy";
+termsPrivacy = "TERMSPRIVACY";

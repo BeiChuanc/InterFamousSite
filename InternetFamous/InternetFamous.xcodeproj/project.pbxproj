@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07FFCA99EDDB26A10EB8EA10 /* Pods_InternetFamous.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE67258857465DDCF4F487ED /* Pods_InternetFamous.framework */; };
+		90040EBF2D1118C3005D9ABC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90040EBE2D1118C3005D9ABC /* InfoPlist.strings */; };
+		90040EC12D1123EA005D9ABC /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90040EC02D1123EA005D9ABC /* UIColor.swift */; };
+		90040EC52D115B2F005D9ABC /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90040EC42D115B2F005D9ABC /* String.swift */; };
+		902244732D0FEE9900F3E838 /* RBI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902244722D0FEE9900F3E838 /* RBI.swift */; };
+		9022447A2D0FFF3D00F3E838 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902244792D0FFF3D00F3E838 /* AppConfig.swift */; };
+		9022447D2D110AE000F3E838 /* TermsPrivacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9022447C2D110AE000F3E838 /* TermsPrivacy.swift */; };
+		902244802D110E7900F3E838 /* TermsPrivacy.html in Resources */ = {isa = PBXBuildFile; fileRef = 9022447F2D110E7900F3E838 /* TermsPrivacy.html */; };
 		902ECC1C2D08402F0024720A /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902ECC1B2D08402F0024720A /* UIFont.swift */; };
 		902ECC1F2D098D980024720A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 902ECC1E2D098D980024720A /* Localizable.strings */; };
 		90AF72A82CE9E13E007599C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AF72A72CE9E13E007599C4 /* AppDelegate.swift */; };
@@ -27,6 +35,8 @@
 		90FBBC6B2D0C26D200A56D81 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FBBC6A2D0C26D200A56D81 /* LoginModel.swift */; };
 		90FBBC6D2D0C319C00A56D81 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FBBC6C2D0C319C00A56D81 /* LoginViewModel.swift */; };
 		90FBBC6F2D0C31B900A56D81 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FBBC6E2D0C31B900A56D81 /* BaseViewModel.swift */; };
+		B9D0CBEE061C3AA2E19A7601 /* Pods_InternetFamous_InternetFamousUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B8C5AC37E33B2D02C02ACE /* Pods_InternetFamous_InternetFamousUITests.framework */; };
+		C83CC40F06F36F7905648B81 /* Pods_InternetFamousTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F2A389572D4CB6D8BC2703 /* Pods_InternetFamousTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F7675ED87076B371E854079 /* Pods-InternetFamousTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetFamousTests.debug.xcconfig"; path = "Target Support Files/Pods-InternetFamousTests/Pods-InternetFamousTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31B8C5AC37E33B2D02C02ACE /* Pods_InternetFamous_InternetFamousUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InternetFamous_InternetFamousUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A36C89BDE1EC758A66B8065 /* Pods-InternetFamous-InternetFamousUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetFamous-InternetFamousUITests.release.xcconfig"; path = "Target Support Files/Pods-InternetFamous-InternetFamousUITests/Pods-InternetFamous-InternetFamousUITests.release.xcconfig"; sourceTree = "<group>"; };
+		66577280F70149009C9FE163 /* Pods-InternetFamous-InternetFamousUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetFamous-InternetFamousUITests.debug.xcconfig"; path = "Target Support Files/Pods-InternetFamous-InternetFamousUITests/Pods-InternetFamous-InternetFamousUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		899BD73B4852CDD828E8559D /* Pods-InternetFamousTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetFamousTests.release.xcconfig"; path = "Target Support Files/Pods-InternetFamousTests/Pods-InternetFamousTests.release.xcconfig"; sourceTree = "<group>"; };
+		90040EBE2D1118C3005D9ABC /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		90040EC02D1123EA005D9ABC /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		90040EC42D115B2F005D9ABC /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		902244722D0FEE9900F3E838 /* RBI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBI.swift; sourceTree = "<group>"; };
+		902244792D0FFF3D00F3E838 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		9022447C2D110AE000F3E838 /* TermsPrivacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsPrivacy.swift; sourceTree = "<group>"; };
+		9022447F2D110E7900F3E838 /* TermsPrivacy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TermsPrivacy.html; sourceTree = "<group>"; };
 		902ECC1B2D08402F0024720A /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		902ECC1E2D098D980024720A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		90AF72A42CE9E13E007599C4 /* InternetFamous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetFamous.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,10 +89,14 @@
 		90AF72EB2CE9E2E0007599C4 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		90AF72ED2CE9E30F007599C4 /* ParentControllerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentControllerManager.swift; sourceTree = "<group>"; };
 		90AF72EF2CE9E3A2007599C4 /* PageControllerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControllerManager.swift; sourceTree = "<group>"; };
+		90F2A389572D4CB6D8BC2703 /* Pods_InternetFamousTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InternetFamousTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FBBC682D0C25F600A56D81 /* PodfileDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodfileDescription.swift; sourceTree = "<group>"; };
 		90FBBC6A2D0C26D200A56D81 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		90FBBC6C2D0C319C00A56D81 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		90FBBC6E2D0C31B900A56D81 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		AE67258857465DDCF4F487ED /* Pods_InternetFamous.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InternetFamous.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B983317F672D5EA654E39D /* Pods-InternetFamous.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetFamous.debug.xcconfig"; path = "Target Support Files/Pods-InternetFamous/Pods-InternetFamous.debug.xcconfig"; sourceTree = "<group>"; };
+		DE8DC7A30DF8F52E261387C2 /* Pods-InternetFamous.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetFamous.release.xcconfig"; path = "Target Support Files/Pods-InternetFamous/Pods-InternetFamous.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07FFCA99EDDB26A10EB8EA10 /* Pods_InternetFamous.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C83CC40F06F36F7905648B81 /* Pods_InternetFamousTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,16 +120,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D0CBEE061C3AA2E19A7601 /* Pods_InternetFamous_InternetFamousUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1439FEB0AD22A57C566BEC80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE67258857465DDCF4F487ED /* Pods_InternetFamous.framework */,
+				31B8C5AC37E33B2D02C02ACE /* Pods_InternetFamous_InternetFamousUITests.framework */,
+				90F2A389572D4CB6D8BC2703 /* Pods_InternetFamousTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		902244712D0FEE7400F3E838 /* UploadData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadData;
+			sourceTree = "<group>";
+		};
+		902244742D0FF80D00F3E838 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				90AF72DB2CE9E22F007599C4 /* AudioRecorderManager.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		902244752D0FF81800F3E838 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				90AF72DC2CE9E22F007599C4 /* CacheManager.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		902244762D0FF82400F3E838 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				90FBBC6E2D0C31B900A56D81 /* BaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		902244772D0FF83000F3E838 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				90AF72EF2CE9E3A2007599C4 /* PageControllerManager.swift */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		902244782D0FFF0C00F3E838 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				902244722D0FEE9900F3E838 /* RBI.swift */,
+				902244792D0FFF3D00F3E838 /* AppConfig.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		9022447B2D110AB700F3E838 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				9022447C2D110AE000F3E838 /* TermsPrivacy.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		9022447E2D110E6500F3E838 /* TermsPrivacy */ = {
+			isa = PBXGroup;
+			children = (
+				9022447F2D110E7900F3E838 /* TermsPrivacy.html */,
+			);
+			path = TermsPrivacy;
+			sourceTree = "<group>";
+		};
 		902ECC1D2D098D360024720A /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				9022447E2D110E6500F3E838 /* TermsPrivacy */,
 				902ECC1E2D098D980024720A /* Localizable.strings */,
+				90040EBE2D1118C3005D9ABC /* InfoPlist.strings */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -113,6 +218,8 @@
 				90AF72BD2CE9E13F007599C4 /* InternetFamousTests */,
 				90AF72C72CE9E13F007599C4 /* InternetFamousUITests */,
 				90AF72A52CE9E13E007599C4 /* Products */,
+				B10F1EFA34365CCEFCA822AC /* Pods */,
+				1439FEB0AD22A57C566BEC80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +266,8 @@
 		90AF72D72CE9E19C007599C4 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				902244782D0FFF0C00F3E838 /* Const */,
+				902244712D0FEE7400F3E838 /* UploadData */,
 				90AF72E52CE9E281007599C4 /* Login */,
 				90AF72E62CE9E291007599C4 /* Tabbar */,
 				90AF72D82CE9E1D5007599C4 /* Utils */,
@@ -180,9 +289,11 @@
 		90AF72D92CE9E1E2007599C4 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				90040EC02D1123EA005D9ABC /* UIColor.swift */,
 				90AF72E12CE9E271007599C4 /* UIAlertController.swift */,
 				90AF72E22CE9E271007599C4 /* UIViewController.swift */,
 				902ECC1B2D08402F0024720A /* UIFont.swift */,
+				90040EC42D115B2F005D9ABC /* String.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -190,11 +301,12 @@
 		90AF72DA2CE9E1F8007599C4 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				90AF72DB2CE9E22F007599C4 /* AudioRecorderManager.swift */,
-				90AF72DC2CE9E22F007599C4 /* CacheManager.swift */,
+				9022447B2D110AB700F3E838 /* WebView */,
+				902244772D0FF83000F3E838 /* PageControl */,
+				902244762D0FF82400F3E838 /* ViewModel */,
+				902244752D0FF81800F3E838 /* Cache */,
+				902244742D0FF80D00F3E838 /* Audio */,
 				90AF72ED2CE9E30F007599C4 /* ParentControllerManager.swift */,
-				90AF72EF2CE9E3A2007599C4 /* PageControllerManager.swift */,
-				90FBBC6E2D0C31B900A56D81 /* BaseViewModel.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -256,6 +368,19 @@
 			path = Dependencies;
 			sourceTree = "<group>";
 		};
+		B10F1EFA34365CCEFCA822AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5B983317F672D5EA654E39D /* Pods-InternetFamous.debug.xcconfig */,
+				DE8DC7A30DF8F52E261387C2 /* Pods-InternetFamous.release.xcconfig */,
+				66577280F70149009C9FE163 /* Pods-InternetFamous-InternetFamousUITests.debug.xcconfig */,
+				3A36C89BDE1EC758A66B8065 /* Pods-InternetFamous-InternetFamousUITests.release.xcconfig */,
+				2F7675ED87076B371E854079 /* Pods-InternetFamousTests.debug.xcconfig */,
+				899BD73B4852CDD828E8559D /* Pods-InternetFamousTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -263,9 +388,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90AF72CE2CE9E13F007599C4 /* Build configuration list for PBXNativeTarget "InternetFamous" */;
 			buildPhases = (
+				FF1725D43BA8637694265A9B /* [CP] Check Pods Manifest.lock */,
 				90AF72A02CE9E13E007599C4 /* Sources */,
 				90AF72A12CE9E13E007599C4 /* Frameworks */,
 				90AF72A22CE9E13E007599C4 /* Resources */,
+				13D8FFC65F656E4A2B1664F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,6 +407,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90AF72D12CE9E13F007599C4 /* Build configuration list for PBXNativeTarget "InternetFamousTests" */;
 			buildPhases = (
+				3D6C61C52C54CF9DE147CF81 /* [CP] Check Pods Manifest.lock */,
 				90AF72B62CE9E13F007599C4 /* Sources */,
 				90AF72B72CE9E13F007599C4 /* Frameworks */,
 				90AF72B82CE9E13F007599C4 /* Resources */,
@@ -298,9 +426,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90AF72D42CE9E13F007599C4 /* Build configuration list for PBXNativeTarget "InternetFamousUITests" */;
 			buildPhases = (
+				C65A59CA0583F8ECAC0A58B9 /* [CP] Check Pods Manifest.lock */,
 				90AF72C02CE9E13F007599C4 /* Sources */,
 				90AF72C12CE9E13F007599C4 /* Frameworks */,
 				90AF72C22CE9E13F007599C4 /* Resources */,
+				9D39739B65E380122EF55283 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -361,8 +491,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				90AF72B42CE9E13F007599C4 /* LaunchScreen.storyboard in Resources */,
+				902244802D110E7900F3E838 /* TermsPrivacy.html in Resources */,
 				902ECC1F2D098D980024720A /* Localizable.strings in Resources */,
 				90AF72B12CE9E13F007599C4 /* Assets.xcassets in Resources */,
+				90040EBF2D1118C3005D9ABC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,14 +514,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13D8FFC65F656E4A2B1664F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InternetFamous/Pods-InternetFamous-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InternetFamous/Pods-InternetFamous-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InternetFamous/Pods-InternetFamous-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D6C61C52C54CF9DE147CF81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InternetFamousTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D39739B65E380122EF55283 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InternetFamous-InternetFamousUITests/Pods-InternetFamous-InternetFamousUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InternetFamous-InternetFamousUITests/Pods-InternetFamous-InternetFamousUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InternetFamous-InternetFamousUITests/Pods-InternetFamous-InternetFamousUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C65A59CA0583F8ECAC0A58B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InternetFamous-InternetFamousUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF1725D43BA8637694265A9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InternetFamous-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90AF72A02CE9E13E007599C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90040EC52D115B2F005D9ABC /* String.swift in Sources */,
+				902244732D0FEE9900F3E838 /* RBI.swift in Sources */,
+				9022447A2D0FFF3D00F3E838 /* AppConfig.swift in Sources */,
 				90AF72F02CE9E3A2007599C4 /* PageControllerManager.swift in Sources */,
 				90FBBC6B2D0C26D200A56D81 /* LoginModel.swift in Sources */,
 				90AF72DD2CE9E22F007599C4 /* AudioRecorderManager.swift in Sources */,
+				90040EC12D1123EA005D9ABC /* UIColor.swift in Sources */,
 				90FBBC6F2D0C31B900A56D81 /* BaseViewModel.swift in Sources */,
 				90AF72EE2CE9E30F007599C4 /* ParentControllerManager.swift in Sources */,
 				90AF72EC2CE9E2E0007599C4 /* WelcomeController.swift in Sources */,
@@ -398,6 +637,7 @@
 				90AF72E42CE9E271007599C4 /* UIViewController.swift in Sources */,
 				90FBBC6D2D0C319C00A56D81 /* LoginViewModel.swift in Sources */,
 				90AF72A82CE9E13E007599C4 /* AppDelegate.swift in Sources */,
+				9022447D2D110AE000F3E838 /* TermsPrivacy.swift in Sources */,
 				90AF72E02CE9E254007599C4 /* PessionUtil.swift in Sources */,
 				902ECC1C2D08402F0024720A /* UIFont.swift in Sources */,
 				90AF72E32CE9E271007599C4 /* UIAlertController.swift in Sources */,
@@ -569,14 +809,27 @@
 		};
 		90AF72CF2CE9E13F007599C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5B983317F672D5EA654E39D /* Pods-InternetFamous.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RWJDFZVY8D;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InternetFamous/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow access to Bluetooth so that you can take calls with headphones.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Allow access to Bluetooth so that you can take calls with headphones.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required for making video calls, taking photos, and uploading profile pictures.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Need access to your folders to save audio files";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "To speed up the app and cache video files, Baking needs access to your local files.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "To recommend nearby Baking, Baking needs access to your location at all times.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To recommend nearby Baking, Baking needs access to your location while in use.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow us to access your microphone so that you can send voice messages.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to photo library to allow you to select and share images within the app. This enhances your ability to customize your profile and create engaging posts.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to photo library to allow you to select and share images within the app. This enhances your ability to customize your profile and create engaging posts.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This logo will be used to recommend personalized ads to you";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -597,14 +850,27 @@
 		};
 		90AF72D02CE9E13F007599C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8DC7A30DF8F52E261387C2 /* Pods-InternetFamous.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RWJDFZVY8D;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InternetFamous/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow access to Bluetooth so that you can take calls with headphones.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Allow access to Bluetooth so that you can take calls with headphones.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required for making video calls, taking photos, and uploading profile pictures.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Need access to your folders to save audio files";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "To speed up the app and cache video files, Baking needs access to your local files.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "To recommend nearby Baking, Baking needs access to your location at all times.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To recommend nearby Baking, Baking needs access to your location while in use.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow us to access your microphone so that you can send voice messages.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to photo library to allow you to select and share images within the app. This enhances your ability to customize your profile and create engaging posts.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to photo library to allow you to select and share images within the app. This enhances your ability to customize your profile and create engaging posts.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This logo will be used to recommend personalized ads to you";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -625,6 +891,7 @@
 		};
 		90AF72D22CE9E13F007599C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F7675ED87076B371E854079 /* Pods-InternetFamousTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -645,6 +912,7 @@
 		};
 		90AF72D32CE9E13F007599C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 899BD73B4852CDD828E8559D /* Pods-InternetFamousTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -665,6 +933,7 @@
 		};
 		90AF72D52CE9E13F007599C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66577280F70149009C9FE163 /* Pods-InternetFamous-InternetFamousUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -683,6 +952,7 @@
 		};
 		90AF72D62CE9E13F007599C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A36C89BDE1EC758A66B8065 /* Pods-InternetFamous-InternetFamousUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

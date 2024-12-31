@@ -1,0 +1,19 @@
+/* 
+  InfoPlist.strings
+  InternetFamous
+
+  Created by 北川 on 2024/12/17.
+  
+*/
+CFBundleDisplayName = "InternetFamous";
+NSCameraUsageDescription = "Camera access is required for making video calls, taking photos, and uploading profile pictures.";
+NSLocationAlwaysUsageDescription = "To recommend nearby Baking, Baking needs access to your location at all times.";
+NSLocationWhenInUseUsageDescription = "To recommend nearby Baking, Baking needs access to your location while in use.";
+NSMicrophoneUsageDescription = "Allow us to access your microphone so that you can send voice messages.";
+NSPhotoLibraryAddUsageDescription = "We need access to photo library to allow you to select and share images within the app. This enhances your ability to customize your profile and create engaging posts.";
+NSPhotoLibraryUsageDescription = "We need access to photo library to allow you to select and share images within the app. This enhances your ability to customize your profile and create engaging posts.";
+NSBluetoothPeripheralUsageDescription = "Allow access to Bluetooth so that you can take calls with headphones.";
+NSBluetoothAlwaysUsageDescription = "Allow access to Bluetooth so that you can take calls with headphones.";
+NSFileProviderDomainUsageDescription = "To speed up the app and cache video files, Baking needs access to your local files.";
+NSUserTrackingUsageDescription = "This logo will be used to recommend personalized ads to you";
+NSDocumentsFolderUsageDescription = "Need access to your folders to save audio files";
